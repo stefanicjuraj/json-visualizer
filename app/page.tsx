@@ -212,7 +212,8 @@ export default function Home() {
         {!jsonData && (
           <div className="p-4 bg-white rounded-lg shadow-lg dark:bg-zinc-800">
             <p className="text-center text-zinc-500 dark:text-zinc-400">
-              Input your JSON and click "Visualize" to access different views
+              Input your JSON and click &quot;Visualize&quot; to access
+              different views
             </p>
           </div>
         )}
