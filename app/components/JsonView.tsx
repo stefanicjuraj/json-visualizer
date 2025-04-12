@@ -180,7 +180,9 @@ export default function JsonView({
       const type = getValueType(obj);
 
       if (type === "string") {
-        return `<span class="json-string">"${escapeHtml(obj)}"</span>`;
+        return `<span class="json-string">&quot;${escapeHtml(
+          obj
+        )}&quot;</span>`;
       }
 
       if (type === "number" || type === "boolean") {
@@ -230,7 +232,7 @@ export default function JsonView({
               </div>`;
             } else {
               return `<div data-path="${currentPath}" class="py-1">
-                <span class="json-key">"${key}"</span><span class="json-mark">: </span>${formattedValue}
+                <span class="json-key">&quot;${key}&quot;</span><span class="json-mark">: </span>${formattedValue}
               </div>`;
             }
           })
