@@ -1,1 +1,48 @@
 @import "tailwindcss";
+
+.json-key {
+  color: #7c3aed;
+}
+
+.json-string {
+  color: #16a34a;
+}
+
+.json-number {
+  color: #2563eb;
+}
+
+.json-boolean {
+  color: #d97706;
+}
+
+.json-null {
+  color: #94a3b8;
+}
+
+.json-mark {
+  color: #64748b;
+}
+
+.json-item {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1.5rem;
+}
+
+.json-collapse-marker {
+  cursor: pointer;
+  display: inline-block;
+  width: 1rem;
+  margin-right: 0.25rem;
+}
+
+.json-breadcrumb {
+  color: #94a3b8;
+  font-size: 0.75rem;
+  margin-left: 0.5rem;
+}
+
+.highlight {
+  background-color: rgba(184, 216, 239, 0.3);
+}
